@@ -3,11 +3,12 @@ import React from 'react'
 
 const _layout = () => {
   return (
-    
+    <>
     <View style={styles.container}>
       <Text style={styles.text} >hii vijay ! wanna order a pizza?</Text>
-      <button  style={styles.btn}>order me</button>
+      {/*<button  style={styles.btn}>order me</button>*/}
     </View>
+    </>
     
   )
 }
@@ -21,7 +22,7 @@ const styles = StyleSheet.create({
     
   },
   text:{
-    fontSize:"25px",
+   
     color:"white",
   },
   btn:{
